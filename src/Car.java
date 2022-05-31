@@ -9,7 +9,6 @@ public class Car extends Vehicle implements ServiceInterface{
     public void checkEngine() {
         System.out.println("Проверяем двигатель");
     }
-
     @Override
     public void check() {
             System.out.println("Обслуживаем " + getModelName());
